@@ -1,0 +1,56 @@
+.navbar-brand {
+  color: bisque;
+  font-style: italic;
+  font-size: 20px;
+}
+.collapse {
+  position: fixed;
+  left: 20rem;
+  button {
+    font-size: 1.4rem;
+  }
+}
+
+.navbar-nav > li {
+  padding: 1rem;
+}
+.footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  color: blue;
+  text-align: center;
+  background-color: antiquewhite;
+}
+.logo {
+  display: flex;
+  gap: 25px;
+}
+.web {
+  display: flex;
+  gap: 25px;
+}
+.resume {
+  border-radius: "12px";
+}
+.font {
+  font-size: 17px;
+}
+.resume {
+  border-radius: 12px;
+  border-color: aquamarine;
+  width: 200px;
+  height: 50px;
+  background-color: aquamarine;
+  color: white;
+  font-size: 20px;
+}
+.resume:hover {
+  border-radius: 12px;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.nav-link {
+  color: aliceblue;
+}
